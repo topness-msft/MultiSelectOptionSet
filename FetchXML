@@ -1,0 +1,11 @@
+<fetch no-lock="true" >
+  <entity name="stringmap" >
+    <filter>
+      <condition attribute="attributename" operator="eq" value="NAME_OF_OPTIONSET" />
+      <condition attribute="attributevalue" operator="in" >
+        <value>ID_RETURNED_FROM_CDS</value>
+        <value>ID_RETURNED_FROM_CDS</value>
+      </condition>
+    </filter>
+  </entity>
+</fetch>
